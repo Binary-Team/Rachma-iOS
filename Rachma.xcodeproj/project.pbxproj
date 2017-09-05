@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED631F5E9625009C6614 /* AppDelegate.swift */; };
+		1940ED661F5E9625009C6614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED651F5E9625009C6614 /* ViewController.swift */; };
+		1940ED691F5E9625009C6614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED671F5E9625009C6614 /* Main.storyboard */; };
+		1940ED6C1F5E9625009C6614 /* Rachma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */; };
+		1940ED6E1F5E9625009C6614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED6D1F5E9625009C6614 /* Assets.xcassets */; };
+		1940ED711F5E9625009C6614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED6F1F5E9625009C6614 /* LaunchScreen.storyboard */; };
+		1940ED7C1F5E9625009C6614 /* RachmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED7B1F5E9625009C6614 /* RachmaTests.swift */; };
+		1940ED871F5E9625009C6614 /* RachmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED861F5E9625009C6614 /* RachmaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1940ED781F5E9625009C6614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1940ED581F5E9625009C6614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1940ED5F1F5E9625009C6614;
+			remoteInfo = Rachma;
+		};
+		1940ED831F5E9625009C6614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1940ED581F5E9625009C6614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1940ED5F1F5E9625009C6614;
+			remoteInfo = Rachma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1940ED601F5E9625009C6614 /* Rachma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rachma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1940ED631F5E9625009C6614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1940ED651F5E9625009C6614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1940ED681F5E9625009C6614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1940ED6B1F5E9625009C6614 /* Rachma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rachma.xcdatamodel; sourceTree = "<group>"; };
+		1940ED6D1F5E9625009C6614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1940ED701F5E9625009C6614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1940ED721F5E9625009C6614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1940ED771F5E9625009C6614 /* RachmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RachmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1940ED7B1F5E9625009C6614 /* RachmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RachmaTests.swift; sourceTree = "<group>"; };
+		1940ED7D1F5E9625009C6614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1940ED821F5E9625009C6614 /* RachmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RachmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1940ED861F5E9625009C6614 /* RachmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RachmaUITests.swift; sourceTree = "<group>"; };
+		1940ED881F5E9625009C6614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1940ED5D1F5E9625009C6614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED741F5E9625009C6614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED7F1F5E9625009C6614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1940ED571F5E9625009C6614 = {
+			isa = PBXGroup;
+			children = (
+				1940ED621F5E9625009C6614 /* Rachma */,
+				1940ED7A1F5E9625009C6614 /* RachmaTests */,
+				1940ED851F5E9625009C6614 /* RachmaUITests */,
+				1940ED611F5E9625009C6614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1940ED611F5E9625009C6614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1940ED601F5E9625009C6614 /* Rachma.app */,
+				1940ED771F5E9625009C6614 /* RachmaTests.xctest */,
+				1940ED821F5E9625009C6614 /* RachmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1940ED621F5E9625009C6614 /* Rachma */ = {
+			isa = PBXGroup;
+			children = (
+				1940ED631F5E9625009C6614 /* AppDelegate.swift */,
+				1940ED651F5E9625009C6614 /* ViewController.swift */,
+				1940ED671F5E9625009C6614 /* Main.storyboard */,
+				1940ED6D1F5E9625009C6614 /* Assets.xcassets */,
+				1940ED6F1F5E9625009C6614 /* LaunchScreen.storyboard */,
+				1940ED721F5E9625009C6614 /* Info.plist */,
+				1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */,
+			);
+			path = Rachma;
+			sourceTree = "<group>";
+		};
+		1940ED7A1F5E9625009C6614 /* RachmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1940ED7B1F5E9625009C6614 /* RachmaTests.swift */,
+				1940ED7D1F5E9625009C6614 /* Info.plist */,
+			);
+			path = RachmaTests;
+			sourceTree = "<group>";
+		};
+		1940ED851F5E9625009C6614 /* RachmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1940ED861F5E9625009C6614 /* RachmaUITests.swift */,
+				1940ED881F5E9625009C6614 /* Info.plist */,
+			);
+			path = RachmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1940ED5F1F5E9625009C6614 /* Rachma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1940ED8B1F5E9625009C6614 /* Build configuration list for PBXNativeTarget "Rachma" */;
+			buildPhases = (
+				1940ED5C1F5E9625009C6614 /* Sources */,
+				1940ED5D1F5E9625009C6614 /* Frameworks */,
+				1940ED5E1F5E9625009C6614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rachma;
+			productName = Rachma;
+			productReference = 1940ED601F5E9625009C6614 /* Rachma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1940ED761F5E9625009C6614 /* RachmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1940ED8E1F5E9625009C6614 /* Build configuration list for PBXNativeTarget "RachmaTests" */;
+			buildPhases = (
+				1940ED731F5E9625009C6614 /* Sources */,
+				1940ED741F5E9625009C6614 /* Frameworks */,
+				1940ED751F5E9625009C6614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1940ED791F5E9625009C6614 /* PBXTargetDependency */,
+			);
+			name = RachmaTests;
+			productName = RachmaTests;
+			productReference = 1940ED771F5E9625009C6614 /* RachmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1940ED811F5E9625009C6614 /* RachmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1940ED911F5E9625009C6614 /* Build configuration list for PBXNativeTarget "RachmaUITests" */;
+			buildPhases = (
+				1940ED7E1F5E9625009C6614 /* Sources */,
+				1940ED7F1F5E9625009C6614 /* Frameworks */,
+				1940ED801F5E9625009C6614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1940ED841F5E9625009C6614 /* PBXTargetDependency */,
+			);
+			name = RachmaUITests;
+			productName = RachmaUITests;
+			productReference = 1940ED821F5E9625009C6614 /* RachmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1940ED581F5E9625009C6614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marwen Doukh";
+				TargetAttributes = {
+					1940ED5F1F5E9625009C6614 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					1940ED761F5E9625009C6614 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1940ED5F1F5E9625009C6614;
+					};
+					1940ED811F5E9625009C6614 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1940ED5F1F5E9625009C6614;
+					};
+				};
+			};
+			buildConfigurationList = 1940ED5B1F5E9625009C6614 /* Build configuration list for PBXProject "Rachma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1940ED571F5E9625009C6614;
+			productRefGroup = 1940ED611F5E9625009C6614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1940ED5F1F5E9625009C6614 /* Rachma */,
+				1940ED761F5E9625009C6614 /* RachmaTests */,
+				1940ED811F5E9625009C6614 /* RachmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1940ED5E1F5E9625009C6614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940ED711F5E9625009C6614 /* LaunchScreen.storyboard in Resources */,
+				1940ED6E1F5E9625009C6614 /* Assets.xcassets in Resources */,
+				1940ED691F5E9625009C6614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED751F5E9625009C6614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED801F5E9625009C6614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1940ED5C1F5E9625009C6614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940ED6C1F5E9625009C6614 /* Rachma.xcdatamodeld in Sources */,
+				1940ED661F5E9625009C6614 /* ViewController.swift in Sources */,
+				1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED731F5E9625009C6614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940ED7C1F5E9625009C6614 /* RachmaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1940ED7E1F5E9625009C6614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1940ED871F5E9625009C6614 /* RachmaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1940ED791F5E9625009C6614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1940ED5F1F5E9625009C6614 /* Rachma */;
+			targetProxy = 1940ED781F5E9625009C6614 /* PBXContainerItemProxy */;
+		};
+		1940ED841F5E9625009C6614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1940ED5F1F5E9625009C6614 /* Rachma */;
+			targetProxy = 1940ED831F5E9625009C6614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1940ED671F5E9625009C6614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1940ED681F5E9625009C6614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1940ED6F1F5E9625009C6614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1940ED701F5E9625009C6614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1940ED891F5E9625009C6614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1940ED8A1F5E9625009C6614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1940ED8C1F5E9625009C6614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rachma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.Rachma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1940ED8D1F5E9625009C6614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rachma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.Rachma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1940ED8F1F5E9625009C6614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RachmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.RachmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rachma.app/Rachma";
+			};
+			name = Debug;
+		};
+		1940ED901F5E9625009C6614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RachmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.RachmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rachma.app/Rachma";
+			};
+			name = Release;
+		};
+		1940ED921F5E9625009C6614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RachmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.RachmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rachma;
+			};
+			name = Debug;
+		};
+		1940ED931F5E9625009C6614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RachmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryTeam.RachmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rachma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1940ED5B1F5E9625009C6614 /* Build configuration list for PBXProject "Rachma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940ED891F5E9625009C6614 /* Debug */,
+				1940ED8A1F5E9625009C6614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1940ED8B1F5E9625009C6614 /* Build configuration list for PBXNativeTarget "Rachma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940ED8C1F5E9625009C6614 /* Debug */,
+				1940ED8D1F5E9625009C6614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1940ED8E1F5E9625009C6614 /* Build configuration list for PBXNativeTarget "RachmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940ED8F1F5E9625009C6614 /* Debug */,
+				1940ED901F5E9625009C6614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1940ED911F5E9625009C6614 /* Build configuration list for PBXNativeTarget "RachmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940ED921F5E9625009C6614 /* Debug */,
+				1940ED931F5E9625009C6614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1940ED6B1F5E9625009C6614 /* Rachma.xcdatamodel */,
+			);
+			currentVersion = 1940ED6B1F5E9625009C6614 /* Rachma.xcdatamodel */;
+			path = Rachma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1940ED581F5E9625009C6614 /* Project object */;
+}
