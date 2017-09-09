@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mx5-Ri-LLX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,12 +25,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PzR-yh-Xco" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-621" y="132"/>
+            <point key="canvasLocation" x="2416.8000000000002" y="136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--Blote Game Setting-->
+        <scene sceneID="TNK-G7-Wzn">
+            <objects>
+                <viewController id="9Kw-rC-dEl" customClass="BloteGameSetting" customModule="Rachma" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eic-iR-kuq"/>
+                        <viewControllerLayoutGuide type="bottom" id="ajo-sd-ENs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ngn-sZ-FrF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1CW-A1-cug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="983"/>
+        </scene>
+        <!--Choose Game-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rachma" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ChooseGame" customModule="Rachma" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,12 +56,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WmK-fI-PDV">
+                                <rect key="frame" x="0.0" y="259" width="375" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1w-sx-IAJ">
+                                        <rect key="frame" x="20" y="0.0" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.13333333333333333" green="0.45882352941176469" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2wC-h6-v8Z"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Belote">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="9Kw-rC-dEl" kind="show" id="1eU-O6-HKG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nf5-Do-4Pd">
+                                        <rect key="frame" x="20" y="100" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.1764705882352941" green="0.33725490196078434" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Rummy">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="x99-rH-pF8" kind="show" id="n5b-3q-sbd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o1w-sx-IAJ" firstAttribute="leading" secondItem="WmK-fI-PDV" secondAttribute="leading" constant="20" id="81b-Qr-IAK"/>
+                                    <constraint firstAttribute="trailing" secondItem="o1w-sx-IAJ" secondAttribute="trailing" constant="20" id="8V9-ND-ccp"/>
+                                    <constraint firstAttribute="trailing" secondItem="nf5-Do-4Pd" secondAttribute="trailing" constant="20" id="RaG-x8-Qrb"/>
+                                    <constraint firstItem="nf5-Do-4Pd" firstAttribute="leading" secondItem="WmK-fI-PDV" secondAttribute="leading" constant="20" id="Xdl-ft-OLi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WmK-fI-PDV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oss-uz-4SV"/>
+                            <constraint firstItem="WmK-fI-PDV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="hq5-c7-nBc"/>
+                            <constraint firstItem="WmK-fI-PDV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zoI-Fn-2bQ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4hY-Ne-qe5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="126"/>
+            <point key="canvasLocation" x="1352.8" y="125.4872563718141"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qxU-xU-8ac">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mx5-Ri-LLX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T7Y-J6-2Fh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.0" green="0.41176470588235292" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="BO6-J7-9xh">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="S6D-ZT-WLr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90i-Rx-ayh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413.60000000000002" y="125.4872563718141"/>
         </scene>
     </scenes>
 </document>

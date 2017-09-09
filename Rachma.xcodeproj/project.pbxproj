@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		191D1AFD1F63D67B009C6D7C /* RummyGameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */; };
 		1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED631F5E9625009C6614 /* AppDelegate.swift */; };
-		1940ED661F5E9625009C6614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED651F5E9625009C6614 /* ViewController.swift */; };
+		1940ED661F5E9625009C6614 /* ChooseGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED651F5E9625009C6614 /* ChooseGame.swift */; };
 		1940ED691F5E9625009C6614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED671F5E9625009C6614 /* Main.storyboard */; };
 		1940ED6C1F5E9625009C6614 /* Rachma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */; };
 		1940ED6E1F5E9625009C6614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED6D1F5E9625009C6614 /* Assets.xcassets */; };
 		1940ED711F5E9625009C6614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1940ED6F1F5E9625009C6614 /* LaunchScreen.storyboard */; };
 		1940ED7C1F5E9625009C6614 /* RachmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED7B1F5E9625009C6614 /* RachmaTests.swift */; };
 		1940ED871F5E9625009C6614 /* RachmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED861F5E9625009C6614 /* RachmaUITests.swift */; };
+		19BB49DC1F6407B800346FDA /* BeloteGameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB49DB1F6407B800346FDA /* BeloteGameSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RummyGameSetting.swift; sourceTree = "<group>"; };
 		1940ED601F5E9625009C6614 /* Rachma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rachma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1940ED631F5E9625009C6614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1940ED651F5E9625009C6614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1940ED651F5E9625009C6614 /* ChooseGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGame.swift; sourceTree = "<group>"; };
 		1940ED681F5E9625009C6614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1940ED6B1F5E9625009C6614 /* Rachma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rachma.xcdatamodel; sourceTree = "<group>"; };
 		1940ED6D1F5E9625009C6614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		1940ED821F5E9625009C6614 /* RachmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RachmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1940ED861F5E9625009C6614 /* RachmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RachmaUITests.swift; sourceTree = "<group>"; };
 		1940ED881F5E9625009C6614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BB49DB1F6407B800346FDA /* BeloteGameSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeloteGameSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				1940ED631F5E9625009C6614 /* AppDelegate.swift */,
-				1940ED651F5E9625009C6614 /* ViewController.swift */,
+				1940ED651F5E9625009C6614 /* ChooseGame.swift */,
 				1940ED671F5E9625009C6614 /* Main.storyboard */,
 				1940ED6D1F5E9625009C6614 /* Assets.xcassets */,
 				1940ED6F1F5E9625009C6614 /* LaunchScreen.storyboard */,
 				1940ED721F5E9625009C6614 /* Info.plist */,
 				1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */,
 				191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */,
+				19BB49DB1F6407B800346FDA /* BeloteGameSetting.swift */,
 			);
 			path = Rachma;
 			sourceTree = "<group>";
@@ -266,7 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1940ED6C1F5E9625009C6614 /* Rachma.xcdatamodeld in Sources */,
-				1940ED661F5E9625009C6614 /* ViewController.swift in Sources */,
+				19BB49DC1F6407B800346FDA /* BeloteGameSetting.swift in Sources */,
+				1940ED661F5E9625009C6614 /* ChooseGame.swift in Sources */,
 				1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */,
 				191D1AFD1F63D67B009C6D7C /* RummyGameSetting.swift in Sources */,
 			);
