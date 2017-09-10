@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1904374E1F6594C800E04E48 /* RummyScorekeeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904374D1F6594C800E04E48 /* RummyScorekeeping.swift */; };
 		191D1AFD1F63D67B009C6D7C /* RummyGameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */; };
 		1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED631F5E9625009C6614 /* AppDelegate.swift */; };
 		1940ED661F5E9625009C6614 /* ChooseGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940ED651F5E9625009C6614 /* ChooseGame.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1904374D1F6594C800E04E48 /* RummyScorekeeping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RummyScorekeeping.swift; sourceTree = "<group>"; };
 		191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RummyGameSetting.swift; sourceTree = "<group>"; };
 		1940ED601F5E9625009C6614 /* Rachma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rachma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1940ED631F5E9625009C6614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1940ED6A1F5E9625009C6614 /* Rachma.xcdatamodeld */,
 				191D1AFC1F63D67B009C6D7C /* RummyGameSetting.swift */,
 				19BB49DB1F6407B800346FDA /* BeloteGameSetting.swift */,
+				1904374D1F6594C800E04E48 /* RummyScorekeeping.swift */,
 			);
 			path = Rachma;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1940ED6C1F5E9625009C6614 /* Rachma.xcdatamodeld in Sources */,
+				1904374E1F6594C800E04E48 /* RummyScorekeeping.swift in Sources */,
 				19BB49DC1F6407B800346FDA /* BeloteGameSetting.swift in Sources */,
 				1940ED661F5E9625009C6614 /* ChooseGame.swift in Sources */,
 				1940ED641F5E9625009C6614 /* AppDelegate.swift in Sources */,
